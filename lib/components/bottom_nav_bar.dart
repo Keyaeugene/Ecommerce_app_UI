@@ -4,8 +4,6 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 class MyBottomNavBar extends StatelessWidget {
   void Function(int)? onTabChange;
   MyBottomNavBar({super.key, required this.onTabChange});
-  const MyBottomNavBar({super.key});
->>>>>>> 80efdd5cdb8b653faeb8028a7e82fc8df7bd27b5
 
   @override
   Widget build(BuildContext context) {
